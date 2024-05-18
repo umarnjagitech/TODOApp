@@ -7,10 +7,10 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import YOUR_PACKAGE_NAME.composables.TodoInputBar
-import YOUR_PACKAGE_NAME.composables.TodoItemsContainer
-import YOUR_PACKAGE_NAME.data.TodoItem
-import YOUR_PACKAGE_NAME.ui.constants.OverlappingHeight
+import com.example.todoapp.composables.TodoItem.TodoInputBar
+import com.example.todoapp.composables.TodoItem.TodoItemsContainer
+import com.example.todoapp.data.TodoItem
+import com.example.todoapp.ui.constants.OverlappingHeight
 import kotlinx.coroutines.flow.flowOf
 
 class MainActivity : ComponentActivity() {
